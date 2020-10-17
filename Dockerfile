@@ -14,3 +14,5 @@ RUN pip install -r requirements.txt
 
 # Copy project
 COPY . /code/
+
+CMD gunicorn cookie_stand_python.wsgi:application --bind 0.0.0.0:$PORT --workers 4
