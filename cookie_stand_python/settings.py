@@ -156,4 +156,5 @@ REST_FRAMEWORK = {
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
+    "https://mystifying-hodgkin-3fb959.netlify.app/",
 ]
